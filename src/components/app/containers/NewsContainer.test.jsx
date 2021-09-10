@@ -7,7 +7,7 @@ describe('NewsContainer', () => {
   it('should display list of new articles', async () => {
     render(<NewContainer />);
 
-    screen.getByText('Time for the Newwsss');
+    screen.getByText('Time for the News');
 
     const ul = await screen.findByRole('list', { name: 'articles' });
     
