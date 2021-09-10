@@ -9,7 +9,9 @@ describe('NewsContainer', () => {
 
     screen.getByText('Time for the Newwsss');
 
+    const ul = await screen.findByRole('list', { name: 'articles' });
     
+    expect(ul).not.toBeEmptyDOMElement();
 
   });
 });
