@@ -12,7 +12,7 @@ const Search = ({ searchWord, onChange, submit }) => {
         onChange={onChange}
       />
 
-      <button onClick={submit}>Search the news!</button>
+      <button aria-label="submit" onClick={submit}>Search the news!</button>
     </>
   );
 };

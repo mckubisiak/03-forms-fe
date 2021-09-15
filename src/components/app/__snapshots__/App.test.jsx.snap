@@ -2,8 +2,19 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <input
+    aria-label="keyword search"
+    name="searchWord"
+    type="text"
+    value="Search for news here!"
+  />
+  <button
+    aria-label="submit"
+  >
+    Search the news!
+  </button>
+  <ul
+    aria-label="articles"
+  />
 </DocumentFragment>
 `;

@@ -6,7 +6,5 @@ export const fetchNews = async (searchWord) => {
   );
   const json = await response.json();
 
-  const articles = json.articles;
-
-  return articles;
+  return json.articles;
 };
