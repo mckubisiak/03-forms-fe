@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
-import { fetchNews } from '../../../services/Newsapi';
-import Articlelist from '../../articles/Articlelist';
-import Search from '../../articles/Search';
+import { fetchNews } from '../../services/Newsapi';
+import Articlelist from '../articles/Articlelist';
+import Search from '../articles/Search';
 
 
 
