@@ -6,9 +6,7 @@ export const fetchNews = async (searchWord) => {
   );
   const json = await response.json();
 
-  return json.map((article) => ({
-    title: article.title,
-    author: article.author,
-    description: article.description,
-  }));
+  const articles = json.articles;
+
+  return articles;
 };
